@@ -420,13 +420,14 @@
     <div class="footer-icon">©</div>
     <a href="mention_legal.html" class="footer-text-link">
         <span class="footer-title">Mentions Légales</span>
-        <span class="footer-copyright">©2026 aloydrelayoga</span>
+        <span class="footer-copyright">©<span id="year"></span> aloydrelayoga</span>
     </a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
 <script>
+	document.getElementById('year').textContent = new Date().getFullYear();
     window.addEventListener('DOMContentLoaded', () => {
         confetti({
             particleCount: 200,
