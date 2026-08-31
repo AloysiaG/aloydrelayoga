@@ -235,7 +235,7 @@
 		}
 
 		.image-container img {
-            width: 500px;
+            width: auto;
             height: auto;
             object-fit: cover;
             border-radius: 8px;
@@ -348,91 +348,6 @@
             gap: 40px;
             flex-wrap: wrap;
             margin-top: 20px;
-        }
-
-        /* Colonne de gauche (Infos) */
-        .info-gauche {
-            flex: 1;
-            min-width: 300px;
-            font-size: 1.2rem;
-            line-height: 1.8;
-        }
-
-        .info-gauche a {
-            color: #ffffff;
-            text-decoration: underline;
-            font-weight: bold;
-        }
-
-        /* Colonne de droite (Formulaire) */
-        .form-droite {
-            flex: 1;
-            min-width: 320px;
-            background-color: #D300FF;
-            padding: 30px;
-            color: #333333;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        .form-droite h2 {
-            font-size: 1.3rem;
-            font-weight: normal;
-            margin-top: 0;
-            margin-bottom: 25px;
-            text-transform: uppercase;
-            line-height: 1.4;
-            color: #000000;
-        }
-
-        /* Style des champs de saisie */
-        .form-droite input[type="text"],
-        .form-droite input[type="email"],
-        .form-droite input[type="tel"],
-        .form-droite textarea {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            border: none;
-            background-color: #00D4F7;
-            color: #333333;
-            font-size: 1rem;
-            box-sizing: border-box;
-        }
-
-        /* Couleur des placeholders (textes d'indication en fond de case) */
-        .form-droite ::placeholder {
-            color: rgba(0, 0, 0, 0.9);
-            text-transform: uppercase;
-            font-size: 0.9rem;
-        }
-
-        .form-droite textarea {
-            height: 150px;
-            resize: vertical;
-        }
-
-        /* Conteneur du bouton pour l'aligner à droite */
-        .btn-container {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        /* Bouton "Envoyer" de l'image */
-        .form-droite button {
-            background-color: #0004FF;
-            color: #ffffff;
-            border: 1px solid #000000;
-            padding: 10px 25px;
-            font-size: 1rem;
-            text-transform: uppercase;
-            cursor: pointer;
-            border-radius: 8px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
-            transition: background 0.2s;
-        }
-
-        .form-droite button:hover {
-            background-color: #C5B5AC;
         }
 </style>
 </head>
