@@ -299,10 +299,11 @@
     <div class="footer-icon">©</div>
     <a href="mention_legal.html" class="footer-text-link">
         <span class="footer-title">Mentions Légales</span>
-        <span class="footer-copyright">©2026 aloydrelayoga</span>
+        <span class="footer-copyright">©<span id="year"></span> aloydrelayoga</span>
     </a>
 </div>
 <script>
+	document.getElementById('year').textContent = new Date().getFullYear();
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const mobileMenuContainer = document.getElementById('mobile-menu-container');
     const desktopNav = document.getElementById('desktop-nav');
